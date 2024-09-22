@@ -1,3 +1,103 @@
-h1{
-    color: blue;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    height: auto;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav_logo img {
+    width: 40px;
+    height: auto;
+}
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header-images {
+    position: relative;
+    height: auto;
+
+}
+
+.header-images .text {
+    position: relative;
+    /* z-index: 2; */
+    font-size: 125px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    color: green;
+}
+
+.centered-image {
+    position: absolute; 
+    left: 0;
+    top: 0;
+}
+
+.image-top {
+    top: 72%;
+    width: 80%;
+    left: 0;
+    transform: translateX(16%);
+    z-index: 1;
+}
+
+.image-middle {
+    top: 100%;
+    /* transform: translateY(50%); */
+    width: 60%;
+    transform: translateX(29%);
+}
+
+.image-bottom {
+    top: -5px;
+    width: 100%;
+}
+
+.hero-bar {
+    background-color: rgb(188, 207, 12);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.hero-bar .content {
+    text-align: center;
+}
+
+.hero-bar p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hero-bar img {
+    width: 100px;
+    height: auto;
+    margin: 20px 0;
 }
